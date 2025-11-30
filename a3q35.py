@@ -28,3 +28,10 @@ class Library:
         print("Title:", self.title)
         print("Author:", self.author)
         print("Publisher:", self.publisher)
+
+
+book = Library()
+book.read()
+book.compute()
+book.display()
+
